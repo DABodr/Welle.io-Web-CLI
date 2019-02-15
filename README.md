@@ -1,4 +1,4 @@
-# Welle.io-Web-CLI
+# Welle.io-Web-CLI for RTL-SDR dongle
 
 Dependency:
 
