@@ -2,9 +2,7 @@
 
 Dependency:
 
-sudo apt install libmp3lame-dev
-sudo apt install libmpg123-dev
-sudo apt install librtlsdr-dev
+sudo apt install libmp3lame-dev libmpg123-dev librtlsdr-dev
 
 
 * git clone https://github.com/AlbrechtL/welle.io
