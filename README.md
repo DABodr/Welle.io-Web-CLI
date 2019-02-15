@@ -4,6 +4,8 @@ Dependency:
 
 sudo apt-get install libmp3lame-dev libmpg123-dev librtlsdr-dev
 
+Installation:
+
 * cd /usr/src/
 * git clone https://github.com/AlbrechtL/welle.io
 * cd welle.io/
@@ -16,4 +18,4 @@ sudo apt-get install libmp3lame-dev libmpg123-dev librtlsdr-dev
 
 connect:
 
-http://127.0.0.1:7979/
+http://127.0.0.1:7979/ or copy welleio.conf file in /etc/supervisor/conf.d directory for autostart with the system
