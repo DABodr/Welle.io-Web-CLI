@@ -14,8 +14,7 @@ sudo apt install librtlsdr-dev
 * cd build/
 * cmake .. -DRTLSDR=1 -DBUILD_WELLE_IO=0
 * make
-* ./welle-cli -h
-* ./welle-cli -c 12A -D -w7979
+* ./welle-cli -w 7979 -c 5B -C 2 -P -u
 
 connect:
 
