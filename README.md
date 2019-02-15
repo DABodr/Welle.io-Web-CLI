@@ -19,3 +19,7 @@ Installation:
 connect:
 
 http://127.0.0.1:7979/ or copy welleio.conf file in /etc/supervisor/conf.d directory for autostart with the system
+
+
+sudo /etc/init.d/supervisor restart
+
