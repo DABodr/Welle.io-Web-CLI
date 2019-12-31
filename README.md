@@ -7,13 +7,13 @@ sudo apt-get install libmp3lame-dev libmpg123-dev librtlsdr-dev
 Installation: (v2.0-beta1 for last good working version, so remplace by master or next for actual version.)
 
 * cd /usr/src/
-* git clone https://github.com/AlbrechtL/welle.io
+* sudo git clone https://github.com/AlbrechtL/welle.io
 * cd welle.io/
-* git checkout v2.0-beta1
+* sudo git checkout v2.0-beta1
 * mkdir build
 * cd build/
-* cmake .. -DRTLSDR=1 -DBUILD_WELLE_IO=0
-* make
+* sudo cmake .. -DRTLSDR=1 -DBUILD_WELLE_IO=0
+* sudo make
 * ./welle-cli -w 7979 -c 5B -C 2 -P -u
 
 connect:
